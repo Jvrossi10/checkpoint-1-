@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+body{ 
+    background-color: black;
+    color: white; 
+    background-image: url('https://i.pinimg.com/originals/d7/b0/3e/d7b03e668282779321b48287ebc94fac.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#div-header{
+    display: flex;
+    justify-content: center; 
+    margin-top: 1%;
+}
+
+
+
+header {
+    display: flex;
+    height: 213px; 
+    width: 90vw;
+    background: rgba( 16, 16, 44, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+    flex-wrap: wrap;
+} 
+
+#logo {
+    display: flex; 
+    align-items: center;
+    
+}  
+
+#logo img {
+    height: 100px; 
+    width: 100px; 
+
+}
+
+
+
+#nav-ul {
+    width: 40vw;
+    display: flex;
+    flex-direction: c;
+    justify-content: space-around;
+} 
+
+.barra {
+    margin: 2px;
+    border: 2px solid #624968;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    font-size: x-large; 
+    padding: 10px;
+}
+
+header li { 
+    display: flex;
+    list-style-type: none;
+    padding: 2px;
+} 
+
+#div-banner{
+    width: auto;
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1%;
+}
+
+#banner {
+    display: flex;
+    height: 480px;
+    width: 70vw;
+    background-image: url('https://pa1.narvii.com/6318/203092f35471f5d7fdd0cf68a949a3d9fd292c62_hq.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center; 
+    justify-content: initial; 
+    border-radius: 30px; 
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 1.0 ); 
+    transition: .5s ease-in-out;
+    color: #ffffff; 
+    padding: 1%;
+} 
+
+#banner:hover {
+
+    transform: scale(1.02);
+    filter: brightness(120%);
+
+}
+
+#txt-banner { 
+    display: flex; 
+    height: 80%;
+    width: 30%; 
+    margin-bottom: 2%; 
+    padding: 1%;
+    background: rgba( 166, 159, 159, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: small; 
+    text-align: center;
+} 
+
+#titulo-pai{ 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#titulo-curiosidades{ 
+    display: flex;
+    width: 90%; 
+    justify-content: center;
+    margin-top: 2%;
+    padding: 1%;
+    background: rgba(105, 101, 101, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(23, 26, 77, 0.5);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    font-family: 'Roboto', sans-serif;
+}
+
+#div-pai-curiosidades {
+    display: flex; 
+    height: 550px;
+    width: auto;
+    margin: 1%;
+    align-items: center;
+    justify-content: space-evenly; 
+    
+} 
+
+.div-filho-curiosidades h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-filho-curiosidades { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 96%;
+    width: 20%; 
+    background: rgba( 16, 16, 44, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba(18, 20, 61, 0.37);
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .5s ease-in-out; 
+    font-family: 'Josefin Sans', sans-serif; 
+    
+} 
+
+.div-filho-curiosidades:hover {
+
+    transform: scale(1.02);
+    filter: brightness(120%);
+
+}
+
+.div-filho-curiosidades h2 { 
+    text-align: center;
+}
+
+.div-filho-curiosidades img {
+    height: 45%;
+    width: 95%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+article {
+    padding: 5%; 
+    text-align: center
+} 
+
+#som {
+    margin-top: -10px;
+} 
+
+.div-filho-curiosidades #som {
+    height: 45%;
+    width: 95%;
+    border-radius: 15px;
+    border: 2px solid black;
+} 
+
+#big-bang { 
+    display: flex;
+    width: auto;
+    height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; 
+} 
+
+#big-bang iframe { 
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .5s ease-in-out; 
+} 
+
+#big-bang iframe:hover {
+    transform: scale(1.02);
+    filter: brightness(120%);
+} 
+
+#div-footer {
+    display: flex; 
+    width: auto;
+    justify-content: center; 
+    height: 213px; 
+    margin-bottom: 1%;
+}
+
+footer {
+    display: flex;
+    height: 213px; 
+    width: 90vw; 
+    background: rgba( 16, 16, 44, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+a img {
+    height: 15vh;
+}
+
+
+
+@media (max-width:425px) { 
+    body{  
+        background-image: none; 
+        background: linear-gradient(90deg, rgba(8,9,14,1) 0%, rgba(141,34,149,1) 100%);
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #div-header{
+        display: flex;
+        text-align: center; 
+        height: 100%; 
+        margin-bottom: 5%;
+    } 
+    
+    header {
+        height: 100%;
+    }
+    
+    #logo {
+        display: flex;
+        width: 90%;
+        justify-content: center
+    }
+
+    #menu {
+        display: flex;
+        
+    }
+
+    #nav-ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barra{
+        font-size: large;
+    
+    }
+
+    #div-banner { 
+        display: flex; 
+        height: 30vh;  
+        width: 95%; 
+        margin-left: 2%;
+
+    } 
+
+    #banner { 
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 95vw;
+    }
+
+    #txt-banner { 
+        margin-top: 125%;
+        height: 80%;
+        width: 90%;
+        font-size: x-small;
+    } 
+
+    #titulo-pai{ 
+        margin-top: 70%;
+        margin-bottom: -70%;
+    }
+
+    #div-pai-curiosidades {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 70%;    
+    }
+     
+    .div-filho-curiosidades { 
+        display: flex;
+        width: 100%;
+        height: auto; 
+        margin: 2%;
+    }  
+
+    #big-bang {  
+        margin-top: 270%;
+        margin-bottom: 2%;
+        height: 25vh;
+        width: 30vw; 
+        
+    } 
+    
+    #div-footer {
+      display: flex;
+    }
+    
+
+}
